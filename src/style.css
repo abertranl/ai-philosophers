@@ -1,5 +1,18 @@
 body {
   font-family: Arial, sans-serif;
   margin: 24px;
-  background-color: #f4f4f4;
+  background-color: #c3d3f9;
+  color: #1e1e1e;
+}
+
+h1 {
+  font-size: 40px;
+}
+p {
+  font-size: 16px;
+}
+
+a {
+  color: #f4fd86;
+  text-decoration: underline;
 }
