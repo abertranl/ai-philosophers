@@ -3,24 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Instrument+Serif:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
     <title>The timeless debate</title>
   </head>
   <body>
     <header>
-      <h1>
-        Through the maze of time, soft voices call, Echoes gather along this
-        ancient hall.
+      <h1>The timeless debate</h1>
+      <h2>
+        Through the maze of time, soft voices call,
+        <br />
+        Echoes gather along this ancient home.
         <br /><br />
-        Some words grow rich, thick with meaning's wine, Others turn sour, edge
-        sharp with time.
+        Some words grow rich, thick with meaning's wine,
+        <br />
+        Others turn sour, edge sharp with time.
         <br /><br />
-        Now, one philosopher steps into the gleam— Will their speech shape
-        dreams or shatter the dream?
-      </h1>
+        A philosopher steps into the gleam—
+        <br />
+        Will their speech shape dreams or shatter the dream?
+      </h2>
     </header>
     <main>
-      <p>Whose ideas shall we debate?</p>
+      <hr />
+      <h4>Whose ideas shall we debate?</h4>
       <input
         type="text"
         id="user-input"
@@ -29,8 +40,36 @@
         required
       />
       <button id="submit-button">Submit</button>
+
+      <div id="philosopher-container">
+        <p>
+          Immanuel Kant revolutionized philosophy by arguing that our knowledge
+          is shaped by the way our minds structure experience. He made a key
+          distinction between phenomena (the world as we perceive it) and
+          noumena (things-in-themselves which we can never fully know).
+          Morality, for Kant, is grounded in the "categorical imperative," a
+          universal principle urging us to act only by rules that could apply to
+          everyone, and to always treat people as ends in themselves, never as
+          means. He insisted that reason, freedom, and autonomy are the
+          foundation of ethical behavior. Kant’s work wrestles with the limits
+          of knowledge, the sovereignty of rational will, and the hope for moral
+          progress.
+        </p>
+      </div>
       <div id="response-container">
-        <p>The response to the philosopher will be here...</p>
+        <p>
+          Oh Kant, sweet Kant, architect of mental filters and universal rules.
+          You said we can never know things as they really are—brutal, right?
+          Like, everything is a colorful Snapchat filter our brain throws on
+          reality. But don’t get me wrong, I’m with you on the moral law—no
+          stealing your friend’s wifi or ghosting without explanation because it
+          wouldn’t make a good universal rule. Still, tying ethics so tightly to
+          abstract reason? Feels like an overachieving science fair project of
+          the mind, super neat but missing all the messy, weird, emotional vibes
+          that make us human. Maybe your categorical imperative could chill a
+          bit and stop acting like a strict Gen Z TikTok rule-maker. But hey,
+          thanks for giving autonomy a glow-up before it was cool.
+        </p>
       </div>
     </main>
 
