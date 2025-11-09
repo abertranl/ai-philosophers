@@ -25,6 +25,18 @@ button:hover {
   background-color: #e6f080;
 }
 
+.blink {
+  padding: 0;
+  margin: 0;
+  animation: blinker 2s steps(10, start) infinite;
+}
+
+@keyframes blinker {
+  40% {
+    opacity: 0.4;
+  }
+}
+
 div {
   min-width: 432px;
   max-width: 40%;
