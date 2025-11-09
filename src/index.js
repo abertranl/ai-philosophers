@@ -22,9 +22,6 @@ function generateResponse(event) {
     "You are an expert observer of contemporary society with deep understanding of today's cultures, global economy, and environmental challenges. You possess extensive knowledge of world history and the evolving systems of governance and power. You are well-versed in current societal concerns, including environmental sustainability, economic shifts, technological advancements, political ideologies, and social justice movements. Your expertise spans technology, ethics, and politics, enabling you to critically analyze and contextualize ideas within today's complex, multipolar world.";
   let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
-  console.log(prompt);
-  console.log(context);
-
   axios.get(apiURL).then(displayResponse);
 }
 
