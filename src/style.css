@@ -73,13 +73,9 @@ p {
   font-size: 16px;
   text-align: justify;
 }
-#response-container {
+.response-container {
   font-style: italic;
   background-color: #f4fd86;
   padding: 12px;
   border-radius: 4px;
-}
-
-#philosopher-container {
-  padding: 12px;
 }
